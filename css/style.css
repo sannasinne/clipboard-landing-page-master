@@ -107,6 +107,7 @@ button:hover {
 header {
   background-image: url("../images/bg-header-mobile.png");
   background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 16rem;
 }
 
@@ -153,8 +154,13 @@ main {
 ------- Section 3 ----------
 --------------------------*/
 
+.section-3 {
+  margin-bottom: 17rem;
+}
+
 .icons {
   margin-top: 8rem;
+  margin-bottom: 13.5rem;
 }
 
 .icon-box {
@@ -165,4 +171,72 @@ main {
 
 .icon-box img {
   margin-bottom: 4rem;
+}
+
+.logos img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+}
+
+/*--------------------------
+------- Section 4 ----------
+--------------------------*/
+
+.section-4 {
+  margin-bottom: 17rem;
+}
+
+/*--------------------------
+--------- Footer -----------
+--------------------------*/
+
+footer {
+  background-color: hsla(201, 11%, 66%, .1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .logo {
+  width: 5.5rem;
+  height: 5.5rem;
+  margin-top: 5.2rem;
+  margin-bottom: 4.4rem;
+}
+
+li {
+  text-align: center;
+  margin-bottom: 2.7rem;
+}
+
+.footer-nav {
+  margin-bottom: 5.2rem;
+}
+
+a {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;  
+}
+
+a:hover {
+  color: var(--strong-cyan);
+}
+
+.social-media {
+  display: flex;
+  margin-bottom: 5.1rem;
+}
+
+.social-media li {
+  margin-right: 4rem;
+}
+
+.social-media li:last-of-type {
+  margin-right: 0;
+}
+
+.social-media img:hover {
+  color: var(--strong-cyan);
 }
