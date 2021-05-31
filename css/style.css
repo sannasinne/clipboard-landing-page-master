@@ -240,3 +240,185 @@ a:hover {
 .social-media img:hover {
   color: var(--strong-cyan);
 }
+
+/*--------------------------
+----- Desktop styles -------
+--------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  /*--------------------------
+  --------- Header -----------
+  --------------------------*/
+
+  h1 {
+    font-size: 4.6rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  header {
+    background-image: url("../images/bg-header-desktop.png");
+    margin-bottom: 15rem;
+  }
+
+  header .logo {
+    margin-top: 12.8rem;
+    margin-bottom: 5.6rem;
+  }
+
+  header p {
+    font-size: 2rem;
+    max-width: 73rem;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  button {
+    max-width: 22.7rem;
+  }
+
+  /*--------------------------
+  ------- Section 1 ----------
+  --------------------------*/
+
+  .section-1 {
+    margin-bottom: 15rem;
+  }
+
+  .heading-box p {
+    max-width: 73rem;
+    margin: 0 auto 8.3rem;
+  }
+
+  .desktop {
+    display: flex;
+    align-items: center;
+    gap: 11rem;
+    transform: translateX(-12rem);
+  }
+
+  .section-1 img {
+    margin-bottom: 0;
+}
+
+  .heading-box-small h3 {
+    text-align: left;
+  }
+
+  .heading-box-small p {
+    font-size: 1.6rem;
+    text-align: left;
+    max-width: 35rem;
+  }
+
+  /*--------------------------
+  ------- Section 2 ----------
+  --------------------------*/
+
+  .section-2 {
+    margin-bottom: 16rem;
+  }
+
+  .section-2 .heading-box {
+    margin-bottom: 11.3rem;
+  }
+
+  .section-2 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*--------------------------
+  ------- Section 3 ----------
+  --------------------------*/
+
+  .section-3 .heading-box {
+    margin-bottom: 7.5rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .icon-box {
+    max-width: 35rem;
+  }
+
+  .icon-box img {
+    margin-bottom: 5rem;
+  }
+
+  img.icon-margin {
+    margin-bottom: 4.01rem;
+  }
+
+  .icon-box p {
+    font-size: 1.6rem;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 111rem;
+    margin: 0 auto 15rem;
+  }
+
+  /*--------------------------
+  ------- Section 4 ----------
+  --------------------------*/
+
+  .section-4 .buttons {
+    justify-content: center;
+  }
+
+  /*--------------------------
+  --------- Footer -----------
+  --------------------------*/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.2rem 16.5rem;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-height: 12rem;
+    margin: 0;
+  }
+
+  .footer-nav li {
+    margin-right: 7rem;
+    margin-top: 1.35rem;
+    margin-bottom: 1.35rem;
+  }
+
+  footer .logo {
+    margin: 0;
+  }
+
+  .social-media {
+    margin: 0;
+  }
+
+  .social-media li {
+    margin-bottom: 0;
+  }
+
+}
